@@ -1,0 +1,22 @@
+{
+ "compilerOptions": {
+  "target": "es5",
+  "module": "CommonJS",
+  "outDir": "lib",
+  "rootDir": "src",
+  "removeComments": true,
+  "declaration": true,
+  "typeRoots": [
+   "node_modules/@types"
+  ],
+  "types": ["node"],
+  "sourceMap": true
+ },
+ "exclude": [
+  "node_modules/**/*",
+  "lib"
+ ],
+ "include": [
+  "src/**/*"
+ ]
+}
